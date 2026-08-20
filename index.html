@@ -1,0 +1,110 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="description" content="Privacy Policy for the Sri Pundrik App — a devotional companion for iPhone and Android, for followers of Sri Pundrik Goswami Maharaj.">
+    <title>Privacy Policy — Sri Pundrik App</title>
+    <style>
+        :root {
+            --saffron-100: #FFEFD6;
+            --saffron-200: #FFDBA8;
+            --saffron-600: #D97706;
+            --saffron-700: #B45309;
+            --text-primary:   #1A1A1A;
+            --text-secondary: #555555;
+            --bg:             #FAF7F2;
+        }
+        * { box-sizing: border-box; }
+        html, body { margin: 0; padding: 0; background: var(--bg); }
+        body {
+            font-family: -apple-system, BlinkMacSystemFont, "SF Pro Text", "Helvetica Neue", Helvetica, Arial, sans-serif;
+            color: var(--text-primary);
+            line-height: 1.6;
+            font-size: 16px;
+            -webkit-font-smoothing: antialiased;
+            -moz-osx-font-smoothing: grayscale;
+        }
+        .container { max-width: 720px; margin: 0 auto; padding: 64px 24px 96px; }
+        header { text-align: center; margin-bottom: 48px; padding-bottom: 32px; border-bottom: 1px solid var(--saffron-200); }
+        h1 {
+            font-family: -apple-system, "New York", "Times New Roman", serif;
+            font-size: 32px; font-weight: 600; margin: 0 0 8px; color: var(--text-primary);
+        }
+        .last-updated { font-size: 13px; color: var(--text-secondary); margin: 0; text-transform: uppercase; letter-spacing: 0.08em; }
+        h2 {
+            font-family: -apple-system, "New York", "Times New Roman", serif;
+            font-size: 22px; font-weight: 600; color: var(--text-primary); margin: 48px 0 12px; padding-top: 8px;
+        }
+        p { margin: 0 0 16px; color: var(--text-primary); }
+        ul { padding-left: 24px; margin: 12px 0 16px; }
+        ul li { margin-bottom: 6px; color: var(--text-primary); }
+        strong { font-weight: 600; }
+        a { color: var(--saffron-600); text-decoration: none; border-bottom: 1px solid var(--saffron-200); }
+        a:hover { border-bottom-color: var(--saffron-600); }
+        .contact-block { margin-top: 56px; padding: 24px; background: var(--saffron-100); border-radius: 12px; text-align: center; }
+        .contact-block p { margin: 0; }
+        .contact-block a { font-weight: 600; border-bottom: none; }
+        footer { margin-top: 64px; padding-top: 32px; border-top: 1px solid var(--saffron-200); text-align: center; color: var(--saffron-700); font-style: italic; font-size: 15px; }
+        @media (max-width: 600px) {
+            .container { padding: 40px 20px 80px; }
+            h1 { font-size: 26px; }
+            h2 { font-size: 20px; }
+        }
+    </style>
+</head>
+<body>
+    <div class="container">
+        <header>
+            <h1>Privacy Policy</h1>
+            <p class="last-updated">Sri Pundrik App · Last Updated August 2026 (v4.0 iPhone · v1.0 Android)</p>
+        </header>
+
+        <h2>Overview</h2>
+        <p>The Sri Pundrik App is a devotional companion for followers of Sri Pundrik Goswami Maharaj. The app is available for iPhone and for Android. Your practice data — japa, sadhana, Gita bookmarks, achievements — is kept on your phone and also backed up to Google Firebase under a private identity, so it survives a reinstall and stays in sync across your devices, including between an iPhone and an Android phone. Signing in is optional and adds a profile and the Deeksha forms — with Apple or Google on iPhone, with Google on Android.</p>
+        <p>This policy explains what data the app collects, how it is used, where it is stored, and how you can delete it.</p>
+
+        <h2>Data We Collect and How We Use It</h2>
+        <p><strong>Your app identity.</strong> From first launch, the app creates an anonymous identity with Google Firebase — a random ID that is not tied to your name, email, or device. Your practice data (below) is backed up under it. If you later sign in with Apple or Google, this identity links to your account so nothing is lost.</p>
+        <p><strong>Practice data — on your iPhone and backed up.</strong> Your japa counts, sadhana entries (including the daily principle checkboxes and any notes you write), the Deeksha daily checklist, your Bhagavad Gita bookmarks, and your achievements are stored on your phone (using Apple's SwiftData framework on iPhone, and Android's DataStore on Android) and also backed up to Google Firebase (Cloud Firestore) under the identity above — so your practice survives a reinstall and stays in sync across your devices.</p>
+        <p><strong>On your phone only.</strong> Your onboarding name, preferences and notification settings stay on your device and are not uploaded. On iPhone, your Sri Pundrik AI (Kanha) chat history also stays on the device and is never uploaded; the Android app does not include the AI assistant.</p>
+        <p><strong>Devotee Account (optional).</strong> If you choose to sign in — with Apple or Google on iPhone, or with Google on Android — we additionally store:</p>
+        <ul>
+            <li>Your name and email address, as provided by Apple or Google</li>
+            <li>Any details you enter on a Deeksha form — for the Deeksha Nivedan (seeking initiation): your name, phone number, email, physical address, and a free-text message; for the verification form (if you are already initiated): your name, phone number, and initiation details (initiation name, date, and place)</li>
+            <li>Whether Sri Pundrik's team has marked your initiation as verified</li>
+        </ul>
+        <p>This information is used to maintain your profile, to let Sri Pundrik's team read and respond to your Deeksha Nivedan, and — for the verification form — to let the team review your phone number and initiation details to confirm your initiation and give you access to the initiated-practice content.</p>
+        <p><strong>Location.</strong> The Temples and Schedule features can use your device location to calculate distances to nearby temples and kathas. This is processed on your device while you use those features and is not stored on our servers.</p>
+        <p><strong>Content the app fetches.</strong> The app downloads devotional content and media (the katha schedule, essays, bhajans, the AI knowledge base, blog sutras, and album artwork) from its content server and other third-party services. Playing a bhajan uses SoundCloud's embedded player, and katha pages embed YouTube thumbnails and Google Maps — these services receive the standard technical requests any web content involves, but the app itself sends them no personal information about you.</p>
+
+        <h2>Where Your Data Is Stored</h2>
+        <p>Your practice-data backup and, if you sign in, your account and Deeksha data are stored using Google Firebase (Cloud Firestore and Firebase Authentication), subject to Google's own privacy and security protections.</p>
+
+        <h2>Data Retention and Deletion</h2>
+        <p>You can delete your data at any time:</p>
+        <ul>
+            <li><strong>Practice data (on device + backup):</strong> Settings → Data → <strong>Delete All Data</strong> erases your japa, sadhana, bookmarks, achievements, and AI conversations — both on your phone and in the Firebase backup under your identity. Uninstalling the app removes the on-device copy.</li>
+            <li><strong>Devotee Account:</strong> if you signed in, Settings → Devotee Account → <strong>Delete Account</strong> permanently removes everything stored under your identity — your profile, any Deeksha form responses, the verification flag, your practice-data backup, and your Firebase record.</li>
+        </ul>
+
+        <h2>Children</h2>
+        <p>The app does not knowingly collect personal information from children. Creating a Devotee Account requires an Apple or Google account, which have their own age requirements. The app can be used fully without signing in; if you do not sign in, no name, email, or profile information is collected — though your practice data is still backed up under the anonymous identity described above, which you can delete at any time.</p>
+
+        <h2>Changes to This Policy</h2>
+        <p>We may update this policy as the app changes. When we do, we will revise the "Last Updated" date above.</p>
+
+        <div class="contact-block">
+            <p>For any privacy question:<br>
+            <a href="mailto:sripundriktech@gmail.com">sripundriktech@gmail.com</a></p>
+        </div>
+
+        <footer>Jai Shri Radha Raman</footer>
+    
+        <h2>Request Account Deletion</h2>
+        <p>You can delete your data at any time from inside the app: <strong>Settings &rarr; Data &rarr; Delete All Data</strong> erases your practice data on your phone and in the cloud backup, and <strong>Settings &rarr; Account &rarr; Delete my account and data</strong> removes your account entirely. If the app cannot reach the server it will tell you so, rather than reporting a deletion that did not happen.</p>
+        <p>If you would rather not use the in-app controls, or you no longer have the app installed, email <a href="mailto:sripundriktech@gmail.com">sripundriktech@gmail.com</a> from the address on your account and ask us to delete your account. We will remove your profile, any Deeksha details you shared, and your practice backup, and confirm by reply. Anonymous practice data that was never linked to an account cannot be traced back to you, so please use the in-app control for that.</p>
+
+    </div>
+</body>
+</html>
